@@ -62,7 +62,7 @@ fi
 
 if [[ -z $SIGNER ]]
 then
-SIGNER='Wendall Cada <wendallc@83864.com>'
+SIGNER='Wendall Cada <wendallc@example.com>'
 fi
 
 if [[ -z $DIST_VER ]]

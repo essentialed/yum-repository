@@ -10,7 +10,7 @@ updating the repository.
 Script for updating repo. Found in /scripts.
 
 Example:
-    initrepo -d fedora/18 -a "i686 i686/debuginfo x86_64 x86_64/debuginfo SRPMS" -s "Wendall Cada <wendallc@83864.com>"
+    initrepo -d fedora/18 -a "i686 i686/debuginfo x86_64 x86_64/debuginfo SRPMS" -s "Wendall Cada <wendallc@example.com>"
 
 Creates the following structure and signs.
 
@@ -35,7 +35,7 @@ repository.
 
     $ vi ~/.rpmmacros
         %_signature gpg
-        %_gpg_name Wendall Cada <wendallc@83864.com>
+        %_gpg_name Wendall Cada <wendallc@example.com>
 
     $ rpm --addsign foo.i386.rpm
         Enter pass phrase:
