@@ -13,8 +13,8 @@ Example:
     initrepo -d fedora/18 -a "i686 i686/debuginfo x86_64 x86_64/debuginfo SRPMS" -s "Wendall Cada <wendallc@83864.com>"
 
 Creates the following structure and signs.
-    |-- fedora
 
+    |-- fedora
         |-- 18
             |-- i686
                 |-- debuginfo
