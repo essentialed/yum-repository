@@ -7,7 +7,7 @@ These are simple bash scripts that do some of the redundant work involved in
 updating the repository.
 
 ### initrepo
-Script for updating repo. Found in resources/scripts.
+Script for updating repo. Found in /scripts.
 
 Example:
     initrepo -d fedora/18 -a "i686 i686/debuginfo x86_64 x86_64/debuginfo SRPMS" -s "Wendall Cada <wendallc@83864.com>"
@@ -23,7 +23,8 @@ Creates the following structure and signs.
                 |-- debuginfo
 
 ## updaterepo
-Script for updating repo after packages have been added. Rebuilds the databases, etc.
+Script for updating repo after packages have been added. Rebuilds the
+databases, etc. Found in /scripts
 
 Example:
     updaterepo -d fedora/18 -a "i686 i686/debuginfo x86_64 x86_64/debuginfo SRPMS"
